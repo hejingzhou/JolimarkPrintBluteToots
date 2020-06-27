@@ -1,0 +1,3 @@
+rootProject.name='BluetoothTools'
+include ':app'
+include ':printerlibrary'

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<string name="app_name">映美打印机Demo</string>-->
+    <string name="app_name">打印机演示Demo</string>
+    <string name="printer_title">开发包示例程序 V</string>
+    <string name="printer_setting">打印机设置</string>
+    <string name="print_text">文本打印示例</string>
+    <string name="print_pic">图片打印示例</string>
+    <string name="print_excel">表格打印示例</string>
+    <string name="html_print">网页打印</string>
+    <string name="json_print">JSON打印</string>
+    <string name="paper_feed">走纸示例</string>
+    <string name="paper_back">退纸示例</string>
+    <string name="print_mode">获取打印机型号</string>
+    <string name="send_instruct_file">发送打印机指令文件</string>
+    <string name="exit">关闭</string>
+    <string name="get_usb_status">查询USB打印机状态</string>
+
+    <string name="communication_faile">打印机通讯失败！</string>
+    <string name="connect_faile">打印机连接失败,请重试</string>
+    <string name="connect_success">打印机连接成功！</string>
+    <string name="test_connect_success">测试连接成功</string>
+    <string name="no_choose">未选择打印机！</string>
+    <string name="other_error">其它错误！</string>
+    <string name="no_connect">未连接打印机！</string>
+    <string name="config_null">参数没设置！</string>
+
+    <string name="tip">提示</string>
+    <string name="connecting">打印机通讯中...</string>
+    <string name="open_file_faile">打开 code.png 失败!</string>
+    <string name="read_file_faile">读取 code.png 失败!</string>
+
+    <string name="open_bt_success">打开蓝牙成功！</string>
+    <string name="open_bt_faile">打开蓝牙失败！</string>
+    <string name="tip_select_bt">请选择一个蓝牙设备</string>
+    <string name="no_found_bt">没找到蓝牙设备</string>
+    <string name="prepare_bt">蓝牙设备列表</string>
+
+    <string name="bt_not_available">蓝牙功能没开启</string>
+    <string name="bt_Searching">查找</string>
+    <string name="bt_no_prepare">没有匹配的蓝牙设备</string>
+    <string name="bt_no_connected_device">未连接到设备：</string>
+    <string name="bt_connected_device">已连接设备：</string>
+    <string name="bt_prepared_but_no_connected">匹配设备(未连接)：</string>
+
+    <string name="bluetooth">蓝牙</string>
+    <string name="wifi">WIFI</string>
+    <string name="bt_setting">蓝牙设置</string>
+    <string name="bt_Search">查找</string>
+    <string name="bt_return">返回</string>
+
+    <string name="bt_selected">选择蓝牙打印机: </string>
+    <string name="bt_other">其他蓝牙设备</string>
+    <string name="wifi_IP">IP地址: </string>
+    <string name="wifi_port">端口号: </string>
+    <string name="wifi_save">保存设置</string>
+    <string name="wifi_setting">WIFI 设置</string>
+    <string name="wifi_return">返回</string>
+
+    <string name="bt_prepare_device">已匹配蓝牙设备</string>
+
+    <string name="wifi_search">搜索</string>
+    <string name="wifi_connect">连接</string>
+    <string name="wifi_list">打印机列表</string>
+
+    <string name="close_successed">关闭成功</string>
+    <string name="close_failed">关闭失败</string>
+
+    <string name="no_device">无设备</string>
+    <string name="connect_exist">已连接</string>
+
+    <string name="printing">打印中...</string>
+    <string name="send_failed">发送失败</string>
+    <string name="send_success">发送完成</string>
+    <string name="data_empty">数据为空</string>
+
+    <string name="task_cancel_success">取消任务成功</string>
+    <string name="task_cancel_failed">取消任务失败</string>
+
+    <string name="select_connect_type">选择连接方式</string>
+    <string name="connect_dialog_message">请选择是否需要开启防丢单功能(开启之后只能关机复原)</string>
+    <string name="open">开启</string>
+    <string name="no_open">不开启</string>
+
+    <string name="access_location_info">获取位置信息权限</string>
+    <string name="location_permission_introduction">此权限用于搜索蓝牙设备，是否授权?</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+
+    <string name="continue_send_data">是否继续发送</string>
+    <string name="continue_confirm">继续</string>
+    <string name="force_print">有可能票据不完整，是否强制打印</string>
+    <string name="reprint">有可能票据不完整，是否重新打印</string>
+
+    <string name="status">状态值:</string>
+    <string name="status_error">检测不到USB打印机状态</string>
+
+    <string name="file_open_failure">文件打开失败</string>
+    <string name="file_read_failure">文件读取失败</string>
+
+    <string name="find_printer">找到打印机</string>
+    <string name="printer_type_failed">获取打印机类型失败，请重试</string>
+
+    <string name="er_enable">未开启防丢单功能，无法使用</string>
+    <string name="er_connect">打印机连接失败</string>
+    <string name="er_printer_type">获取打印机类型失败</string>
+    <string name="er_send_data">发送错误</string>
+    <string name="er_no_response">打印机无响应</string>
+    <string name="er_no_select">"打印机脱机</string>
+    <string name="er_money_box">钱箱打开</string>
+    <string name="er_cover">上盖打开</string>
+    <string name="er_paper">纸尽</string>
+    <string name="er_knife">切刀故障</string>
+    <string name="er_over_heat">打印机过热</string>
+    <string name="er_clean_cache">清除打印机缓存失败</string>
+    <string name="er_get_status">查询打印机状态失败</string>
+    <string name="er_unfinished_task">有未完成的打印任务</string>
+    <string name="er_printing">打印途中出现错误</string>
+    <string name="er_unknown">未知错误</string>
+
+    <string name="default_typeface">默认字体：</string>
+    <string name="double_height_and_double_width">倍高倍宽字体：</string>
+    <string name="double_width">倍宽字体：</string>
+    <string name="double_height">倍高字体：</string>
+
+    <string name="table_content">示例</string>
+    <string name="table_title">表格打印示例：</string>
+
+
+    <string name="press_exit">再按一次退出</string>
+    <string name="html_title">选择HTML模板</string>
+    <string name="template_1">模板1(含有条形码)</string>
+    <string name="template_2">模板2(含本地二维码)</string>
+    <string name="template_3">模板3(含图片,需联网)</string>
+    <string name="json_title">选择JSON模板</string>
+</resources>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/mTvOpenBlueTooth"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="#990033"
+            android:gravity="center"
+            android:text="打开蓝牙"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/mTvCanFind"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="#9D42D6"
+            android:gravity="center"
+            android:text="可被发现"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/mTvFindPei"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="#2FB8A4"
+            android:gravity="center"
+            android:text="查找已配对"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/mTvFindUnPei"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="#1748DA"
+            android:gravity="center"
+            android:text="查找未配对"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/mTvPrint"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="#379F1B"
+            android:gravity="center"
+            android:text="连接"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/mTvPrintModel"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="#D1A932"
+            android:gravity="center"
+            android:text="获得打印机型号"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/mTvPrintText"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="#097063"
+            android:gravity="center"
+            android:text="打印"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+
+        <LinearLayout
+            android:id="@+id/mLinearBonded"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+        <LinearLayout
+            android:id="@+id/mLinearNotBonded"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+    </LinearLayout>
+
+</RelativeLayout>
